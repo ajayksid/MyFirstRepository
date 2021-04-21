@@ -1,0 +1,6 @@
+c:\users\surya prakash\documents\visual studio 2015\Projects\VendorMachineProj\VendorMachineProj\bin\Debug\VendorMachineProj.exe.config
+c:\users\surya prakash\documents\visual studio 2015\Projects\VendorMachineProj\VendorMachineProj\bin\Debug\VendorMachineProj.exe
+c:\users\surya prakash\documents\visual studio 2015\Projects\VendorMachineProj\VendorMachineProj\bin\Debug\VendorMachineProj.pdb
+c:\users\surya prakash\documents\visual studio 2015\Projects\VendorMachineProj\VendorMachineProj\obj\Debug\VendorMachineProj.exe
+c:\users\surya prakash\documents\visual studio 2015\Projects\VendorMachineProj\VendorMachineProj\obj\Debug\VendorMachineProj.pdb
+c:\users\surya prakash\documents\visual studio 2015\Projects\VendorMachineProj\VendorMachineProj\obj\Debug\VendorMachineProj.csprojResolveAssemblyReference.cache

@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VendorMachineProj
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome!!");
+            Console.WriteLine("Prodcut List and Price -");
+            VendingMachine objVend = new VendingMachine();
+            foreach (var data in objVend.GetProductList())
+            {
+                Console.WriteLine("Prodcut Name : {0}  ,Product Code : {1}  , Price :{2} $",data.ProductName,data.ProductCode,data.ProductPrice);
+
+            }
+            Console.WriteLine("Please Enter Product Code :");
+            string productcode = Console.ReadLine();
+            Console.WriteLine("Please Insert Coins :");
+            string Coins = Console.ReadLine().ToLower();
+
+            Console.ReadLine();
+        }
+        public double getCoinPrice(string Coins)
+        {
+            
+
+        }
+
+    }
+}

@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VendorMachineProj
+{
+    public class Coin
+    {
+
+    
+        public class nickel : ICoin
+        {
+            public nickel()
+            {
+                CoinName = "nickel";
+            }
+            public string CoinName { get; set; }
+            public decimal CointValue()
+            {
+                return (1 / 20);
+
+            }
+
+        }
+
+        public class demies : ICoin
+        {
+            public demies()
+            {
+                CoinName = "demies";
+            }
+            public decimal CointValue()
+            {
+                return (1 / 10);
+
+            }
+            public string CoinName { get; set; }
+
+        }
+        public class quarters : ICoin
+        {
+            public quarters()
+            {
+                CoinName = "quarters";
+            }
+            public decimal CointValue()
+            {
+                return (1 / 4);
+
+            }
+            public string CoinName { get; set; }
+
+        }
+        public class pennies : ICoin
+        {
+            public pennies()
+            {
+                CoinName = "pennies";
+            }
+            public decimal CointValue()
+            {
+                return (1 / 100);
+
+            }
+            public string CoinName { get; set; }
+
+        }
+    }
+}
